@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 94px 50px 95px;
+  padding: 94px 53px 95px;
 }
 
 .header__logo {
@@ -55,7 +55,8 @@
   z-index: 0;
   min-height: 757px;
   padding: 170px 50px 50px;
-  background: url("../images/cover.jpg");
+  background-color: #000;
+  background-image: url("../images/cover.jpg");
   background-size: cover;
 }
 
@@ -83,8 +84,8 @@
 }
 
 .aligned-text_center {
-  margin-top: 20px;
-  padding-left: 32px;
+  margin-top: 14px;
+  padding-left: 29px;
   text-align: center;
 }
 
@@ -121,16 +122,29 @@
 }
 
 .lots {
-  padding-top: 180px;
+  padding-top: 172px;
 }
 
 .lots__heading {
-  margin-bottom: 27px;
-  margin-left: 63px;
+  padding-bottom: 26px;
+  padding-left: 66px;
   color: #000;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
 }
 
 .card_type_film {
@@ -151,33 +165,8 @@
   background-size: cover;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.lots__card-list-item {
-  width: 334px;
-  min-height: 596px;
-}
-
 .card-link .card {
   height: 100%;
-}
-
-.lots__card-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 25px;
-  list-style: none;
 }
 
 .overlay__card,
@@ -225,8 +214,8 @@
 
 .lots__look-more-link {
   display: block;
-  margin-top: 30px;
-  margin-left: 63px;
+  margin-top: 24px;
+  margin-left: 66px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -235,9 +224,9 @@
 
 .about__column {
   display: grid;
-  grid-template-columns: 319px auto;
+  grid-template-columns: 311px auto;
   align-items: start;
-  padding: 154px 22px 100px 69px;
+  padding: 149px 26px 104px 74px;
 }
 
 .about__logo-image {
@@ -277,9 +266,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  padding-top: 82px;
-  padding-right: 49px;
-  padding-left: 49px;
+  padding: 72px 54px;
 }
 
 .address__footer {
